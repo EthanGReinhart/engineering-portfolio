@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Engineering portfolio of Ethan Reinhart, an aerospace engineering student focused on guidance, navigation, controls, and simulation."
+    />
+    <meta name="theme-color" content="#071018" />
+    <title>Ethan Reinhart | Aerospace Engineering</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Ethan Reinhart, home">
+        <span class="brand-mark">ER</span>
+        <span class="brand-copy">ETHAN REINHART<small>AEROSPACE ENGINEERING</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span><span class="sr-only">Open menu</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a class="nav-cta" href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section id="home" class="hero">
+        <div class="hero-media" aria-hidden="true">
+          <video class="hero-video is-active" muted playsinline preload="auto">
+            <source src="assets/video/8295528-hd_1920_1080_30fps.mp4" type="video/mp4" />
+          </video>
+          <video class="hero-video" muted playsinline preload="auto">
+            <source src="assets/video/8295528-hd_1920_1080_30fps.mp4" type="video/mp4" />
+          </video>
+          <div class="hero-video-shade"></div>
+          <div class="hero-video-fade"></div>
+        </div>
+
+        <div class="hero-layout section-shell">
+          <div class="hero-copy">
+            <p class="eyebrow hero-sequence-item hero-sequence-location"><span class="status-dot"></span> University of Florida · Gainesville, FL</p>
+            <h1 class="hero-title" aria-label="Spacecraft Dynamics — Controls and Simulation">
+              <span class="hero-title-line">Spacecraft Dynamics</span><br />
+              <span class="hero-title-line hero-title-secondary">Controls &amp; Simulation</span>
+            </h1>
+            <p class="hero-intro hero-sequence-item hero-sequence-intro">
+              I’m Ethan Reinhart, an aerospace engineering student focused on guidance, navigation, and control,
+              with hands-on experience in spacecraft dynamics, flight controls, and simulation.
+            </p>
+            <div class="hero-actions hero-sequence-item hero-sequence-actions">
+              <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
+              <a class="button button-secondary" href="#contact">Get in touch</a>
+            </div>
+          </div>
+
+          <div class="hero-metrics hero-sequence-item hero-sequence-metrics" aria-label="Focus areas">
+            <div><span>01</span><p>Guidance, Navigation<br />&amp; Controls</p></div>
+            <div><span>02</span><p>Dynamics &amp;<br />Simulation</p></div>
+            <div><span>03</span><p>Autonomous<br />Space Systems</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="content-section section-shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 / About</p>
+          <h2>Aerospace engineering,<br />controls, and simulation.</h2>
+        </div>
+        <div class="about-grid reveal">
+          <figure class="about-portrait">
+            <img src="assets/images/about/ethan-reinhart-portrait.png" alt="Portrait of Ethan Reinhart" />
+          </figure>
+          <p class="lead-copy">
+            I’m an Aerospace Engineering student at the University of Florida with a focus on guidance, navigation,
+            and control, spacecraft dynamics, and simulation.
+          </p>
+          <div class="body-copy">
+            <p>
+              My experience includes spacecraft rendezvous and capture research, rocket flight simulation, and
+              flight-control development for a VTOL vehicle. Across these projects, I’ve worked with dynamic
+              modeling, control-system design, numerical simulation, and validation against established software
+              and physical testing.
+            </p>
+            <p>
+              I’m currently interested in opportunities involving spacecraft GNC, flight controls, autonomous
+              systems, and modeling and simulation.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="content-section section-shell">
+        <div class="section-heading section-heading-row reveal">
+          <div><p class="eyebrow">02 / Selected work</p><h2>Engineering projects</h2></div>
+          <p>Research, simulation, and controls work grounded in first-principles engineering.</p>
+        </div>
+
+        <div class="project-list">
+          <article class="project-card project-featured reveal">
+            <div class="project-index">01</div>
+            <figure class="project-media">
+              <img
+                src="assets/images/tether-research/tether-concept-orbital-copper.png"
+                alt="Conceptual front-view visualization of a tether wrapped around a rotating resident space object, with controlled forces applied at both tether endpoints"
+              />
+              <figcaption>Conceptual visualization based on simulation geometry</figcaption>
+            </figure>
+            <div class="project-content">
+              <p class="project-type">ONGOING RESEARCH · UNIVERSITY OF FLORIDA · 2026–PRESENT</p>
+              <h3>Autonomous Tether-Assisted Capture</h3>
+              <p>
+                Developing MATLAB simulations to study post-capture despin and stabilization of a non-cooperative
+                resident space object using controlled tether forces. My work focuses on flexible tether dynamics,
+                contact geometry, orbital relative-motion effects, and the tradeoff between despin performance and
+                translational energy.
+              </p>
+              <div class="project-facts" aria-label="Research highlights">
+                <div><span>MODEL</span><strong>101-node tether</strong></div>
+                <div><span>CONTROL</span><strong>Angular-rate feedback</strong></div>
+                <div><span>ANALYSIS</span><strong>Tension · Energy · Motion</strong></div>
+              </div>
+              <p class="project-credit">Collaborative research under Dr. Norman Fitz-Coy alongside Bogochan Ondes.</p>
+              <ul class="tag-list"><li>MATLAB</li><li>Flexible-Body Dynamics</li><li>Feedback Control</li><li>Orbital Motion</li></ul>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-index">02</div>
+            <div class="project-content">
+              <p class="project-type">FLORIDA ROCKET LAB · FLIGHT SIMULATION</p>
+              <h3>Rocket Flight Simulation</h3>
+              <p>
+                Worked on a Python-based 3DOF flight-dynamics simulator for a liquid-propellant competition rocket,
+                incorporating aerodynamic forces, atmospheric effects, and Monte Carlo analysis. Validated predicted
+                trajectories against OpenRocket, RASAero II, and flight data, achieving results within approximately
+                5% of measured flight performance.
+              </p>
+              <ul class="tag-list"><li>Python</li><li>3DOF</li><li>Aerodynamics</li><li>Monte Carlo</li></ul>
+            </div>
+            <figure class="rocket-media">
+              <img
+                class="rocket-flight-photo"
+                src="assets/images/rocket-sim/mirage-ready-for-launch.jpg"
+                alt="Mirage liquid-propellant competition rocket installed on its launch tower"
+              />
+              <div class="rocket-model-inset">
+                <img src="assets/images/rocket-sim/mirage-vehicle-model.png" alt="Mirage rocket vehicle model" />
+                <span>VEHICLE CAD MODEL</span>
+              </div>
+              <figcaption><span>FLIGHT HARDWARE</span> Mirage ready for launch</figcaption>
+            </figure>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-index">03</div>
+            <div class="project-content">
+              <p class="project-type">FLIGHT CONTROLS · HARDWARE TESTING</p>
+              <h3>Skipper — Mono-Propelled VTOL Flight Controls</h3>
+              <p>
+                As part of Florida Rocket Lab’s GNC team, contributed to the development and testing of the
+                flight-control system for a mono-propelled VTOL vehicle. My work focused on actuator implementation
+                and control integration in MATLAB/Simulink, alongside simulation and physical flight testing.
+              </p>
+              <ul class="tag-list"><li>Simulink</li><li>PID / LQI</li><li>Dynamics</li><li>Flight Test</li></ul>
+            </div>
+            <figure class="skipper-media">
+              <img src="assets/images/skipper/skipper-cad.png" alt="CAD rendering of the Skipper mono-propelled VTOL vehicle" />
+              <figcaption>Skipper vehicle CAD configuration</figcaption>
+            </figure>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="content-section section-shell">
+        <div class="section-heading reveal"><p class="eyebrow">03 / Experience</p><h2>Research &amp; application</h2></div>
+        <div class="timeline reveal">
+          <article><span class="timeline-marker"></span><div><p class="project-type">CURRENT FOCUS</p><h3>Autonomous Space Systems</h3></div><p>Rendezvous, tether dynamics, trajectory analysis, and stabilization control.</p></article>
+          <article><span class="timeline-marker"></span><div><p class="project-type">FLORIDA ROCKET LAB</p><h3>Rocket Flight Simulation</h3></div><p>Vehicle modeling, aerodynamic analysis, validation, and probabilistic simulation.</p></article>
+          <article><span class="timeline-marker"></span><div><p class="project-type">UNIVERSITY OF FLORIDA</p><h3>B.S. Aerospace Engineering</h3></div><p>Coursework and project work spanning dynamics, controls, and aerospace systems.</p></article>
+        </div>
+      </section>
+
+      <section id="skills" class="content-section section-shell">
+        <div class="section-heading reveal"><p class="eyebrow">04 / Technical toolkit</p><h2>Tools for modeling the real world.</h2></div>
+        <div class="skills-grid reveal">
+          <article><span>01</span><h3>Programming</h3><p>Python · MATLAB · JavaScript</p></article>
+          <article><span>02</span><h3>Simulation</h3><p>Simulink · Numerical Methods · Monte Carlo</p></article>
+          <article><span>03</span><h3>Controls</h3><p>PID · LQI · State-Space · System Modeling</p></article>
+          <article><span>04</span><h3>Engineering</h3><p>3DOF Dynamics · Aerodynamics · Flight Test</p></article>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="section-shell contact-inner reveal">
+          <p class="eyebrow">05 / Contact</p>
+          <h2>Let’s build what’s next.</h2>
+          <p>I’m open to internships, research collaborations, and engineering opportunities in aerospace, GNC, controls, and simulation.</p>
+          <div class="contact-links">
+            <a href="mailto:reinharte@ufl.edu">Email <span>↗</span></a>
+            <a href="https://www.linkedin.com/in/ethan-reinhart23/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+            <a href="assets/resume/Ethan-Reinhart-Resume.pdf" download="Ethan-Reinhart-Resume.pdf">Resume PDF <span>↓</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <p>© <span id="current-year"></span> Ethan Reinhart</p>
+      <p>Designed &amp; engineered in Florida</p>
+      <a href="#home">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
