@@ -121,9 +121,9 @@ h1 .hero-title-secondary { color: var(--muted); }
 
 .timeline { border-top: 1px solid var(--line); }
 .timeline article { display: grid; grid-template-columns: 26px 1fr 1fr; gap: 28px; align-items: start; padding: 34px 0; border-bottom: 1px solid var(--line); }
-.timeline-marker { width: 7px; height: 7px; margin-top: 9px; background: var(--accent); border-radius: 50%; }
+.timeline-marker { width: 7px; height: 7px; margin-top: 9px; background: #63f59a; border-radius: 50%; box-shadow: 0 0 5px #63f59a, 0 0 14px rgba(99,245,154,.72); }
 .timeline h3 { font-size: 29px; margin: 0; }.timeline article > p { color: var(--muted); max-width: 430px; }
-.skills-grid { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.skills-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
 .skills-grid article { min-height: 230px; padding: 24px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .skills-grid span { color: var(--accent); font: 10px var(--mono); }.skills-grid h3 { margin: 70px 0 14px; font: 600 25px/1 var(--display); text-transform: uppercase; letter-spacing: .03em; }.skills-grid p { color: var(--muted); font-size: 13px; }
 
